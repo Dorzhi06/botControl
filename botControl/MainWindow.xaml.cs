@@ -23,6 +23,7 @@ namespace botControl
         public MainWindow()
         {
             InitializeComponent();
+            NVG.Navigate(new Pages.MainPage());
         }
     }
 }
